@@ -21,7 +21,7 @@ load_dotenv()
 # ========================================
 
 # MySQL connection
-engine = create_engine("mysql+mysqlconnector://root:harry#470@localhost:3306/hr")
+engine = create_engine("mysql+mysqlconnector://root:h****#***@localhost:3306/hr")
 db = SQLDatabase(engine)
 db_schema = db.get_context()
 
